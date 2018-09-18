@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    margin: 10rem auto;
+    background: whitesmoke;
+    border-bottom-left-radius: 15px;  
+    border-bottom-right-radius: 15px;
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+
+body a {
+    color:gray;
+    text-decoration: none;
+}
+
+.main-header {
+    border: solid 3px grey;
+    margin: 0.5rem;
+}
+ 
+.main-header h1 {
+    width: 100%;
+    color: gray;
+    text-align: center;
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.main-navigation__brand {
+    color: gray;
+}
+
+.main-navigation__items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.main-navigation__item {
+    display: flex;
+    padding: 0.5rem 1.5rem;
+}
+
+.main-section {
+    /*
+    background: yellow;
+    border: solid 3px grey; */
+    margin-bottom: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section__content {
+    /*
+    background: pink;
+    border: solid 3px red;
+    */
+    margin: 0.5rem;
+    
+}
+
+section.hero {
+    /* background-image: url("/img/cute-cat.jpeg"); */
+    background-position: center;
+    height: 750px;
+    border: solid 3px gray;
+}
+
+section.three-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item {
+    border: solid 3px grey;
+    width: 32%;
+    height: 250px;
+}
+
+section.two-colums {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.colum-one {
+    border: solid 3px grey;
+
+    width: 66%;
+    height: 550px; 
+}
+
+.colum-two {
+    border: solid 3px grey;
+    width: 32%;
+    height: 550px; 
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    height: 250px;
+    border: solid 3px grey;
+
+}
+
+.box-one {
+    width: 100%;
+}
+
+.box-two {
+    width: 50%;
+}
+
+.box-three {
+    width: 50%;
+}
+
+
+
+.main-footer {
+    border: solid 3px grey;
+    color: gray;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-align: center;
+}
+
